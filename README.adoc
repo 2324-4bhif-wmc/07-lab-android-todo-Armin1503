@@ -30,6 +30,22 @@ image::https://img.shields.io/badge/version-1.0.0-blue[]
 
 IMPORTANT: Ziel ist es, dass die von Ihnen geleistete Arbeit auch "gefunden" und korrekt bewertet wird.
 
+[discrete]
+=== Aufgabe 1
+
+* Unter dem Verzeichnis `todo` habe ich das Tutorial https://htl-leonding-college.github.io/android-reactive-java-todo[Android Lab: Reactive App with Java^] Schritt für Schritt nachprogrammiert
+
+[discrete]
+=== Aufgabe 2
+
+* Nun habe ich das Frontend aus Aufgabe 1 überarbeitet
+* Meine Arbeit ist hier ebenso unter dem Verzeichnis `todo` zu finden
+
+[discrete]
+=== Aufgabe 3
+
+
+
 == Aufgabe - Erstellen Sie das Basisprojekt
 
 * Erstellen Sie in diesem Repo ein Android-Projekt im Verzeichnis `todo`.

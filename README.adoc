@@ -44,7 +44,8 @@ IMPORTANT: Ziel ist es, dass die von Ihnen geleistete Arbeit auch "gefunden" und
 [discrete]
 === Aufgabe 3
 
-
+* Ich habe ein neues Android-Projekt unter dem Verzeichnis `posts` erstellt
+* Dieses Projekt enthält mehrere Entitäten, REST-Service-Client und eine Ausgabe der Daten auf dem UI
 
 == Aufgabe - Erstellen Sie das Basisprojekt
 

@@ -1,14 +1,15 @@
 package at.htl.posts.model;
 
-import at.htl.posts.model.entity.Post;
+import at.htl.posts.model.entity.dto.UserDto;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/posts")
+@Path("/users")
 @Consumes(MediaType.APPLICATION_JSON)
-public interface PostClient {
+public interface UserClient {
+
     @GET
-    Post[] all();
+    UserDto[] all();
 }

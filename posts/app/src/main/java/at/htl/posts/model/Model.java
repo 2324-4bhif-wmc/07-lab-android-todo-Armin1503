@@ -1,13 +1,14 @@
 package at.htl.posts.model;
 
-import java.util.List;
+import at.htl.posts.model.entity.Post;
+import at.htl.posts.model.entity.User;
+import at.htl.posts.model.entity.UserDetail;
 
 public class Model {
 
-    public Post[] posts = {
-            new Post(1L, 1L, "Title1", "Body1"),
-            new Post(2L, 2L, "Title2", "Body2"),
-            new Post(2L, 3L, "Title3", "Body3")
-    };
+    public Post[] posts = new Post[0];
 
+    public User[] users = new User[0];
+
+    public UserDetail userDetail = new UserDetail();
 }

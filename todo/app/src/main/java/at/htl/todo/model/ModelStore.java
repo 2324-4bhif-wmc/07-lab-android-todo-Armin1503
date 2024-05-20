@@ -17,4 +17,15 @@ public class ModelStore extends Store<Model>  {
     public void setTodos(Todo[] todos) {
         apply(model -> model.todos = todos);
     }
+
+    public void updateCompletionOfTodo(Long id, boolean completed) {
+        apply(model -> {
+            for (Todo todo : model.todos) {
+                if (todo.id == id) {
+                    todo.completed = completed;
+                    break;
+                }
+            }
+        });
+    }
 }

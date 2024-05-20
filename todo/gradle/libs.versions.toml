@@ -10,6 +10,7 @@ espressoCore = "3.5.1"
 lifecycleRuntimeKtx = "2.7.0"
 activityCompose = "1.9.0"
 composeBom = "2024.05.00"
+material = "1.4.3"
 resteasyClient = "6.2.8.Final"
 rxjavaVersion = "3.1.8"
 rxandroid = "3.0.2"
@@ -19,6 +20,7 @@ smallryeConfig = "3.8.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-material = { module = "androidx.compose.material:material", version.ref = "material" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltVersion" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltVersion" }
 jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jacksonDatabind" }

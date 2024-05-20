@@ -38,14 +38,17 @@ IMPORTANT: Ziel ist es, dass die von Ihnen geleistete Arbeit auch "gefunden" und
 [discrete]
 === Aufgabe 2
 
-* Nun habe ich das Frontend aus Aufgabe 1 überarbeitet
+* Nun habe ich das UI aus Aufgabe 1 überarbeitet
 * Meine Arbeit ist hier ebenso unter dem Verzeichnis `todo` zu finden
 
 [discrete]
 === Aufgabe 3
 
 * Ich habe ein neues Android-Projekt unter dem Verzeichnis `posts` erstellt
-* Dieses Projekt enthält mehrere Entitäten, REST-Service-Client und eine Ausgabe der Daten auf dem UI
+* Dieses Projekt enthält mehrere Entitäten, ein DTO, zwei REST-Service-Clients und eine Ausgabe der Daten auf dem UI
+** Entitäten
+*** Post
+*** User
 
 == Aufgabe - Erstellen Sie das Basisprojekt
 

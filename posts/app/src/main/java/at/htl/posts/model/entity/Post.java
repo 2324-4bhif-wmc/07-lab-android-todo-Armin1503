@@ -1,10 +1,14 @@
-package at.htl.posts.model;
+package at.htl.posts.model.entity;
+
+import at.htl.posts.model.Model;
 
 public class Post {
     public Long userId;
     public Long id;
     public String title;
     public String body;
+
+    public User user = new User();
 
     public Post() {
     }
@@ -15,4 +19,5 @@ public class Post {
         this.title = title;
         this.body = body;
     }
+
 }

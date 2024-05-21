@@ -28,4 +28,8 @@ public class ModelStore extends Store<Model>  {
             }
         });
     }
+
+    public void selectTab(int tabIndex) {
+        apply(model -> model.uiState.selectedTab = tabIndex);
+    }
 }
